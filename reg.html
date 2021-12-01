@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Variant 3</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="regStyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="Logo1.js">
+</head>
+<body>
+	<img src="image/36449961.png" class="left-well">
+<p class="left-well" style="position: absolute; top: 20px; left: 40px; font-weight: 500; font-size: 20px;">My Logo</p>
+	<header class="right-well">
+	<p class="Text Sign-up">Sign up</p>
+	<p class="Text under-text">If you don't have an account register</p>
+	<p class="Text under-text1">You can <a href="index.html" class="reg">Login here !</a></p>
+	</header>
+	
+	<div class="Content right-well">
+		<form name="registration" action="">
+
+		<label class="Email">Email</label><br>
+		<i class="fa fa-envelope">
+			<!-- icon of message -->
+		</i>
+		<input class="Email__input" name="Email" type="text" placeholder="Enter your email address"><br>	
+		<span class="Line1"></span>
+
+
+			<label class="Username">Username</label><br>
+		<i class="fa fa-user">
+			<!-- icon of message -->
+		</i>
+		<input class="User__input" name="Username" type="text" placeholder="Enter your User name"><br>	
+		<span class="Line2"></span>
+
+
+			<label class="Password">Password</label><br>
+		<i class="fa fa-lock key">
+			<!-- icon of key -->
+		</i>
+		<input class="Password__input" name="Pass" type="password" placeholder="Enter your Password">
+		<i class="fa fa-eye-slash eye" style="padding-left: 180px;"></i>
+		<span class="Line3"></span><br>
+
+		
+			<label class="Password">Confirm Password</label><br>
+		<i class="fa fa-lock key">
+			<!-- icon of key -->
+		</i>
+		<input class="Password__input" name="confirm_pass" type="password" placeholder="Confirm your Password">
+		<i class="fa fa-eye-slash eye" style="padding-left: 180px;"></i>
+		<span class="Line4"></span>
+
+		
+		<button type="submit" class="right-well btn btn-danger main">Register</button>
+		<div class=" btn-danger bg1"></div><div class="btn-danger bg2"></div>
+</form>
+</div>
+
+	
+	<script type="text/javascript" src="/hostcmsfiles/jquery/jquery.validate.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script>
+		var $Sign = $('.Sign-up')
+		$Sign.css('padding-top', '127px')
+		.css('font-size', '30px')
+		.css('font-weight', '500')
+
+		var $Undertext = $('.under-text')
+		$Undertext.css('font-size', '16px').css('font-weight', '400')
+		.css('line-height', '24px')
+		.css('padding-top', '22px')
+
+			var $Undertext1 = $('.under-text1')
+		$Undertext1.css('font-size', '16px').css('font-weight', '600')
+		.css('line-height', '24px')
+		// .css('padding-top', '22px')
+
+
+		var $Register = $('.reg');
+		$Register.css('color', 'red')
+
+		var $Email = $('.Email')
+		$Email.css('padding-top', '52px').css('font-size', '13px')
+
+		var $emInput = $('.Email__input')
+		$emInput.css('padding-top', '6px').css('font-size', '16px').css('line-height', '24px')
+		.css('border', 'none' ).css('padding-left', '15px')
+
+		var $User = $('.Username')
+		$User.css('padding-top', '52px').css('font-size', '13px')
+
+		var $userInput = $('.User__input')
+		$userInput.css('padding-top', '6px').css('font-size', '16px').css('line-height', '24px')
+		.css('border', 'none' ).css('padding-left', '15px')
+
+		var $Password = $('.Password');
+		$Password.css('padding-top', '52px').css('font-size', '13px').css('font-weight','500')
+
+		var $passInput = $('.Password__input')
+		$passInput.css('border', 'none').css('font-size', '16px').css('padding-left','18px')
+
+		var $after = $('.after');
+		$after.css('padding-top','37px').css('font-size','14px').css('font-weight', '300')
+
+		var $rem = $('.small__rem')
+		$rem.css('padding-left', '10px').css('padding-bottom','20px')
+
+		var $forget = $('.small__for')
+		$forget.css('padding-left', '206px')
+
+	</script>
+</body>
+</html>

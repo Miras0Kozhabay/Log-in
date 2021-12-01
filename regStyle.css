@@ -1,0 +1,147 @@
+img{
+	float: left;
+}
+.right-well{
+	margin-left: 940px;
+	font-family: Poppins;
+}
+a{
+	text-decoration: none;
+}
+
+.Line1{
+position: absolute;
+left: 62.7%;
+right: 0%;
+top: 57.88%;
+bottom: 0%;
+width: 429px;
+height: 2px;
+background: #FF432A;
+}
+.Line2{
+position: absolute;
+left: 62.7%;
+right: 0%;
+top: 72.88%;
+bottom: 0%;
+width: 429px;
+height: 3px;
+background: #000;
+}
+.Line3{
+position: absolute;
+left: 62.7%;
+right: 0%;
+top: 87.88%;
+bottom: 0%;
+width: 429px;
+height: 2px;
+background: #000;
+}
+.Line4{
+position: absolute;
+left: 62.7%;
+right: 0%;
+top: 102.88%;
+bottom: 0%;
+width: 429px;
+height: 2px;
+background: #000;
+}
+.main{
+	margin-left: 30px;
+	margin-top: 60px;
+	width: 370px;
+	height: 53px;
+	z-index: 3;
+}
+	.btn-danger{
+		background: rgb(255,64,1);
+		border: rgb(255,64,1);
+	}
+.bg1{
+	position: absolute;
+	right: 506px;
+	top: 754.3px;
+	width: 53px;
+	height: 53px;
+	z-index: 1;
+	border-radius: 50%;
+	background: ;
+}
+.bg2{
+	position: absolute;
+	right: 130px;
+	top: 754.3px;
+	width: 53px;
+	height: 53px;
+	z-index: 1;
+	border-radius: 50%;
+}
+/*873 width of img*/
+@media (max-width: 375px) {
+	img{
+		display: none;
+			}
+	.right-well{
+		margin-left: 28.48px;
+	}
+	.Line1{
+		position: absolute;
+		top: 400px;
+		left: 28.48px;
+		width: 319.04px;
+	}
+	.Line2{
+		position: absolute;
+		top: 510px;
+		left: 28.48px;
+		width: 319.04px;
+		height: 2px;
+	}
+	.Line3{
+		position: absolute;
+		top: 620px;
+		left: 28.48px;
+		width: 319.04px;height: 2px;
+	}
+	.Line4{
+		position: absolute;
+		top: 730px;
+		left: 28.48px;
+		width: 319.04px;
+		height: 2px;
+	}
+	.fa-eye-slash{
+		position: absolute;
+		top: 470px;
+		right: 30px;
+	}
+	.main{
+		width: 290px;
+		margin-left: 14.24px;
+	}
+	.btn-danger{
+		background: rgb(255,64,1);
+				border: rgb(255,64,1);
+
+	}
+	.bg1{
+		position: absolute;
+		left: 26.48px;
+		top: 756px;
+	}
+	.bg2{
+		position: absolute;
+		right: 26.48px;
+		top: 756px;
+	}
+	.footer{
+		margin-left: -28.48px;
+		/*padding-left: -228.48px;*/
+	}
+}	
+.error{
+	color: red;
+}
